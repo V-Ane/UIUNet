@@ -2,26 +2,35 @@
 
 ## 目录结构
 
+项目根目录/ 
 
-项目根目录/
-├── jittor/                    # jittor框架实现的版本
-│   ├── code/                  # 核心代码文件
-│   │   ├── [代码内容]          # 具体代码文件（如train.py、UIUNet.py等）
-│   │   └── saved_models/       # 训练保存的模型
-│   │       └── uiunet/         # 按模型名区分（保持原逻辑）
-│   └── results/                # 实验结果（log、损失图、表格等）
-│
-├── pytorch/                   # pytorch框架实现的版本
-│   ├── code/                  # 核心代码文件
-│   │   ├── [代码内容]          # 具体代码文件（如train.py、UIUNet.py等）
-│   │   └── saved_models/       # 训练保存的模型
-│   │       └── uiunet/         # 按模型名区分（保持原逻辑）
-│   └── results/                # 实验结果（log、损失图、表格等）
-│
-├── 数据划分和使用/             # 数据集划分相关内容（如划分脚本、说明文档等）
-│
-└── README.md                  # 项目说明（描述目录结构、运行方式等）
+├── jittor/                  # jittor框架实现版本
 
+│   ├── code/                # 核心代码文件
+
+│   │   ├── 代码内容         # 具体代码（如train.py、UIUNet.py等）
+
+│   │   └── saved_models/    # 训练保存的模型 
+
+│   │       └── uiunet/      # 按模型名区分 
+
+│   └── results/             # 实验结果（log、损失图、表格等） 
+
+│ ├── pytorch/                 # pytorch框架实现版本 
+
+│   ├── code/                # 核心代码文件
+
+│   │   ├── 代码内容         # 具体代码（如train.py、UIUNet.py等）
+
+│   │   └── saved_models/    # 训练保存的模型 
+
+│   │       └── uiunet/      # 按模型名区分
+
+│   └── results/             # 实验结果（log、损失图、表格等）
+
+│ ├── 数据划分和使用/          # 数据集划分相关内容 
+
+│ └── README.md                # 项目说明（目录结构、运行方式等）
 
 # 数据集
 

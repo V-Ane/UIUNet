@@ -56,7 +56,7 @@ python test.py   #测试命令
 
 ## loss curve
 
-![Origin导出图_loss](../blogimg/Origin导出图_loss.png)
+![image](https://github.com/V-Ane/UIUNet/blob/master/blogimg/Origin导出图_loss.png)
 
 对应训练的log在对应其框架的Results中
 

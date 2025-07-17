@@ -28,7 +28,7 @@
 
 │   └── results/             # 实验结果（log、损失图、表格等）
 
-│ ├── 数据划分和使用/          # 数据集划分相关内容 
+│ ├── 数据划分和使用.py          # 数据集划分相关内容 
 
 │ └── README.md                # 项目说明（目录结构、运行方式等）
 
@@ -37,6 +37,30 @@
 本次实验使用了文章中提到的两个数据集结合来达到一千张以上的图片防止快速达到过拟合
 
 MSISTD(1076张) + SIRST(427张)
+
+
+
+## 训练、测试命令
+
+```py
+#pytorch框架下
+python train.py  #训练命令
+python test.py   #测试命令
+
+#jittor框架下
+python train.py  #训练命令
+python test.py   #测试命令
+```
+
+使用过程python文件均按照库中的目录结构，并保证train_data和test_data中具有img,labels一一对应
+
+## loss curve
+
+![Origin导出图_loss](../blogimg/Origin导出图_loss.png)
+
+对应训练的log在对应其框架的Results中
+
+
 
 ## 实验配置
 
@@ -55,9 +79,15 @@ MSISTD(1076张) + SIRST(427张)
 
 
 
+
+
+
+
 ## 备注
 
 pytorch原开源代码中有些内容缺失（也可能不必要），但按照内容要求，我对其进行了略微修改与添加，如原代码训练中并未使用测试集进行计算测试集的损失，以及画图保存csv文件等
+
+
 
 
 

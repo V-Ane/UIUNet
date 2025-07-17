@@ -55,8 +55,8 @@ python test.py   #测试命令
 使用过程python文件均按照库中的目录结构，并保证train_data和test_data中具有img,labels一一对应
 
 ## loss curve
+<img width="23178" height="13956" alt="Origin导出图_loss" src="https://github.com/user-attachments/assets/7ad4483f-0cdd-436d-8d31-012917f371a4" />
 
-![image](https://github.com/V-Ane/UIUNet/blob/master/blogimg/Origin导出图_loss.png)
 
 对应训练的log在对应其框架的Results中
 
